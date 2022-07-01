@@ -1,0 +1,100 @@
+// ==============================
+// Override Variables
+// 覆盖变量
+// ==============================
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&display=swap');
+
+
+// ========== Global ========== //
+// Font and Line Height
+$global-font-family: 'IBM Plex Mono', monospace;
+$global-font-size: 16px;
+$global-font-weight: 300;
+$global-line-height: 1.5rem;
+
+// Color of the background""
+$global-background-color: #fff;
+$global-background-color-dark: #191724;
+
+// Color of the text
+$global-font-color: #161209;
+$global-font-color-dark: #e0def4;
+
+// Color of the secondary text
+$global-font-secondary-color: #a9a9b3;
+$global-font-secondary-color-dark: #ebbcba;
+
+// Color of the link
+$global-link-color: #161209;
+$global-link-color-dark: #9ccfd8;
+
+// Color of the hover link
+$global-link-hover-color: #2d96bd;
+$global-link-hover-color-dark: #f6c177;
+
+// Color of the border
+$global-border-color: #f0f0f0;
+$global-border-color-dark: #31748f;
+// ========== Global ========== //
+
+// ========== Scrollbar ========== //
+// Color of the scrollbar
+$scrollbar-color: #ebbcba;
+
+// Color of the hover scrollbar
+$scrollbar-hover-color: #f6c177;
+// ========== Scrollbar ========== //
+
+// ========== Selection ========== //
+// Color of the selected text
+$selection-color: rgba(53, 166, 247, 0.25);
+$selection-color-dark: rgba(82, 79, 103, 0.4);
+// ========== Selection ========== //
+
+// ========== Header ========== //
+// Height of the header
+$header-height: 3.5rem;
+
+// Font family and size of the header title
+$header-title-font-family: $global-font-family;
+$header-title-font-size: 1.5rem;
+
+// Color of the header background
+$header-background-color: #f8f8f8;
+$header-background-color-dark: #1f1d2e;
+
+// Color of the hover header item
+$header-hover-color: #161209;
+$header-hover-color-dark: #fff;
+
+// Color of the search background
+$search-background-color: #e9e9e9;
+$search-background-color-dark: #26233a;
+// ========== Header ========== //
+
+// ========== Single Content ========== //
+// Font size of the TOC
+$toc-title-font-size: 1.2rem;
+$toc-content-font-size: 1rem;
+
+// Color of the single link
+$single-link-color: #2d96bd;
+$single-link-color-dark: #55bde2;
+
+// Color of the hover single link
+$single-link-hover-color: #ef3982;
+$single-link-hover-color-dark: #bdebfc;
+
+// Color of the table background
+$table-background-color: #fff;
+$table-background-color-dark: #272c34;
+
+// Color of the table thead
+$table-thead-color: #ededed;
+$table-thead-color-dark: #20252b;
+
+// Color of the blockquote
+$blockquote-color: #6bd6fd;
+
+

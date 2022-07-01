@@ -1,6 +1,6 @@
-baseURL = "https://example.org/"
+baseURL = "https://thecodecheese.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "The Code Cheese"
 theme = "loveit"
 
 [module]
@@ -8,10 +8,36 @@ theme = "loveit"
     extended = true
     min = "0.62.0"
 
+# Menu config
+# 菜单配置
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "blog"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+    name = "Blog"
+    url = "/blog/"
+    # title will be shown when you hover on this menu link
+    # 当您将鼠标悬停在此菜单链接上时, 将显示标题
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+
 [params]
   # site default theme ["auto", "light", "dark"]
   # 网站默认主题 ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = ""
@@ -25,10 +51,10 @@ theme = "loveit"
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "My cool site"
+  title = "The Code Cheese"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "This is my cool site"
+  description = "Cheesy code site"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
@@ -70,13 +96,13 @@ theme = "loveit"
     custom = ""
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
     # whether to show the author
     # 是否显示作者
-    author = true
+    author = false
     # site creation time
     # 网站创立年份
     since = 2022
@@ -118,10 +144,10 @@ theme = "loveit"
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "My cool site"
+    title = "The Code Cheese"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
-    noFavicon = false
+    noFavicon = true
     # modern SVG favicon to use in place of older style .png and .ico files
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
     svgFavicon = ""
@@ -138,7 +164,7 @@ theme = "loveit"
   # Search config
   # 搜索配置
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
     type = "lunr"
@@ -183,10 +209,10 @@ theme = "loveit"
       avatarURL = ""
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = ""
+      title = "Code the Cheese"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "This is my cool site"
+      subtitle = "Cheese the Code"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -195,20 +221,20 @@ theme = "loveit"
       social = true
       # disclaimer (HTML format is supported)
       # 免责声明 (支持 HTML 格式)
-      disclaimer = ""
+      disclaimer = "Disclaimer: I am not legally liable... Or viable."
     # Home page posts
     # 主页文章列表
     [params.home.posts]
-      enable = true
+      enable = false
       # special amount of posts in each home posts page
       # 主页每页显示文章数量
       paginate = 6
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
+    GitHub = "nboaldin"
     Linkedin = ""
-    Twitter = ""
+    Twitter = "thecodecheese"
     Instagram = ""
     Facebook = ""
     Telegram = ""
@@ -216,7 +242,7 @@ theme = "loveit"
     Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = ""
-    Youtubechannel = ""
+    Youtubechannel = "thecodecheese"
     Tumblr = ""
     Quora = ""
     Keybase = ""
@@ -225,7 +251,7 @@ theme = "loveit"
     Codepen = ""
     FreeCodeCamp = ""
     Bitbucket = ""
-    Stackoverflow = ""
+    Stackoverflow = "8799135/nathan-boaldin"
     Weibo = ""
     Odnoklassniki = ""
     VK = ""
@@ -245,7 +271,7 @@ theme = "loveit"
     Kickstarter = ""
     Patreon = ""
     Steam = ""
-    Twitch = ""
+    Twitch = "thecodecheese"
     Strava = ""
     Skype = ""
     Whatsapp = ""

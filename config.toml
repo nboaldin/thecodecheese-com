@@ -229,7 +229,7 @@ theme = "loveit"
       social = true
       # disclaimer (HTML format is supported)
       # 免责声明 (支持 HTML 格式)
-      disclaimer = "Disclaimer: I am not legally liable... Or viable."
+      disclaimer = ""
     # Home page posts
     # 主页文章列表
     [params.home.posts]

@@ -14,42 +14,42 @@ $global-font-weight: 300;
 $global-line-height: 1.5rem;
 
 // Color of the background""
-$global-background-color: #fff;
-$global-background-color-dark: #191724;
+$global-background-color: #faf4ed; //Base
+$global-background-color-dark: #191724; //Base
 
 // Color of the text
-$global-font-color: #161209;
-$global-font-color-dark: #e0def4;
+$global-font-color: #575279; //Text
+$global-font-color-dark: #e0def4; //Text
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3;
-$global-font-secondary-color-dark: #ebbcba;
+$global-font-secondary-color: #d7827e; //Rose
+$global-font-secondary-color-dark: #ebbcba; //Rose
 
 // Color of the link
-$global-link-color: #161209;
-$global-link-color-dark: #9ccfd8;
+$global-link-color: #56949f; //Foam
+$global-link-color-dark: #9ccfd8; //Foam
 
 // Color of the hover link
-$global-link-hover-color: #2d96bd;
-$global-link-hover-color-dark: #f6c177;
+$global-link-hover-color: #ea9d34; //Gold
+$global-link-hover-color-dark: #f6c177; //Gold
 
 // Color of the border
-$global-border-color: #f0f0f0;
-$global-border-color-dark: #31748f;
+$global-border-color: #286983; //Pine
+$global-border-color-dark: #31748f; //Pine
 // ========== Global ========== //
 
 // ========== Scrollbar ========== //
 // Color of the scrollbar
-$scrollbar-color: #ebbcba;
+$scrollbar-color: #ebbcba; //Rose
 
 // Color of the hover scrollbar
-$scrollbar-hover-color: #f6c177;
+$scrollbar-hover-color: #f6c177; //Gold
 // ========== Scrollbar ========== //
 
 // ========== Selection ========== //
 // Color of the selected text
-$selection-color: rgba(53, 166, 247, 0.25);
-$selection-color-dark: rgba(82, 79, 103, 0.4);
+$selection-color: rgba(206, 202, 205, 0.25); //Highlight High
+$selection-color-dark: rgba(82, 79, 103, 0.4); //Highlight High
 // ========== Selection ========== //
 
 // ========== Header ========== //
@@ -61,16 +61,16 @@ $header-title-font-family: $global-font-family;
 $header-title-font-size: 1.5rem;
 
 // Color of the header background
-$header-background-color: #f8f8f8;
-$header-background-color-dark: #1f1d2e;
+$header-background-color: #fffaf3; //Surface
+$header-background-color-dark: #1f1d2e; //Surface
 
 // Color of the hover header item
-$header-hover-color: #161209;
-$header-hover-color-dark: #fff;
+$header-hover-color: #797593; //Subtle
+$header-hover-color-dark: #908caa; //Subtle
 
 // Color of the search background
-$search-background-color: #e9e9e9;
-$search-background-color-dark: #26233a;
+$search-background-color: #f2e9e1; //Overlay
+$search-background-color-dark: #26233a; //Overlay
 // ========== Header ========== //
 
 // ========== Single Content ========== //
@@ -79,22 +79,22 @@ $toc-title-font-size: 1.2rem;
 $toc-content-font-size: 1rem;
 
 // Color of the single link
-$single-link-color: #2d96bd;
-$single-link-color-dark: #55bde2;
+$single-link-color: #56949f; //Foam
+$single-link-color-dark: #9ccfd8; //Foam
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982;
-$single-link-hover-color-dark: #bdebfc;
+$single-link-hover-color: #ea9d34; //Gold
+$single-link-hover-color-dark: #f6c177; //Gold
 
 // Color of the table background
-$table-background-color: #fff;
-$table-background-color-dark: #272c34;
+$table-background-color: #fffaf3; //Surface
+$table-background-color-dark: #1f1d2e; //Surface
 
 // Color of the table thead
-$table-thead-color: #ededed;
-$table-thead-color-dark: #20252b;
+$table-thead-color: #f2e9e1; //Overlay
+$table-thead-color-dark: #26233a; //Overlay
 
 // Color of the blockquote
-$blockquote-color: #6bd6fd;
+$blockquote-color: #26233a; //Overlay
 
 

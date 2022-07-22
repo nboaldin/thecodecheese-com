@@ -4,6 +4,13 @@ date: 2022-07-22T11:35:19-05:00
 draft: false
 author: "The Code Cheese"
 authorLink: "https://twitter.com/thecodecheese"
+categories:
+- programming
+- rust
+tags:
+- pointers
+- references
+- ownership
 ---
 
 ## Values and References... huh?
